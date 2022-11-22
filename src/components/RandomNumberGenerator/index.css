@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+.container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'roboto';
+  font-size: 36px;
+  font-weight: bold;
+  color: #0b69ff;
+}
+.paragraph {
+  font-family: 'roboto';
+  font-size: 20px;
+}
+.button {
+  background-color: #0b69ff;
+  color: white;
+  width: 150px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 0;
+  height: 40px;
+}
+.value {
+  color: #0b69ff;
+  font-size: 35px;
+  font-weight: bold;
+}
